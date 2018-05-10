@@ -1,12 +1,16 @@
 @import 'include-media/dist/_include-media.scss';
 
 .Teaser {
-  @include media("<=412px") {
+  @include media("<=360px") {
     height: 200vmax;
   }
 
-  @include media(">412px", "<=564px") {
+  @include media(">360px", "<=412px") {
     height: 160vmax;
+  }
+
+  @include media(">412px", "<=564px") {
+    height: 140vmax;
   }
 
   width: 100%;

@@ -12,16 +12,16 @@ export const Teaser = () => (
           <MyBitLogo />
         </div>
         <h1 className='Teaser__title'>
-          New Site migration in process.<br/>
+          New Site migration in progress.<br/>
           Please check back later!
         </h1>
         <p className='Teaser__paragraph'>
-          The MyBit Token Swap is now live! The Token Swap will be exchanging current MyBit Tokens with a new, updated ERC20 token, also with the symbol MYB. For more information on the Token Swap please read our blog post by clicking ‘Learn more’.  To view a comprehensive guide and get started please click ‘Swap now.’
+          The MyBit Token Swap is now live! The Token Swap will be exchanging current MyBit Tokens with a new, updated ERC20 token, also with the symbol MYB. For more information on the Token Swap please read our blog post by clicking ‘Learn more’.  To view a comprehensive guide and get started please click ‘Swap now’.
         </p>
         <div className='Teaser__buttons'>
-          <div className='Teaser__button'>
+          <a rel="noopener noreferrer" target="_blank" className='Teaser__button' href='https://medium.com/mybit-dapp/before-you-begin-take-a-deep-breath-and-relax-3820e9c8ca03'>
             <Button isLight label='Swap Now' />
-          </div>
+          </a>
           <a rel="noopener noreferrer" target="_blank" className='Teaser__button' href='https://medium.com/mybit-dapp/as-we-are-on-the-brink-of-entering-mybits-new-era-we-have-a-very-important-announcement-to-make-a4cda1cd6956'>
             <Button isLight label='See why' />
           </a>
