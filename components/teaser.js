@@ -26,6 +26,11 @@ export const Teaser = () => (
             <Button isLight label='See why' />
           </a>
         </div>
+        <p className='Teaser__paragraph'>
+          <a href='https://staging.mybit.io'>
+            Continue to Site →
+          </a>
+        </p>
       </div>
     </div>
   </div>
